@@ -1,0 +1,5 @@
+t = {}
+mt = {}
+setmetatable(t, mt)
+
+y = getmetatable(t)
