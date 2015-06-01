@@ -1,0 +1,12 @@
+x=42
+
+function foo()
+  print(x)
+end
+
+function bar()
+  local x=666
+  foo()
+end
+
+bar()
